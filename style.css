@@ -50,6 +50,7 @@ body{
     width: 100%;
     padding: 1.3rem 0;
     border: 1px solid rgba(var(--b6a, 219, 219, 219), 1);
+    border-radius: 6px;
 }
 .box-login:nth-child(1){
     min-height: 19rem ;
