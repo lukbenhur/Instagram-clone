@@ -115,3 +115,23 @@ body{
 .app-download:nth-child(2) {
     background-image: url('./img/googleplay-button.png');
 }
+
+@media(max-width:989px){
+    body{
+        justify-content: center;
+        align-items: center;
+    }
+   .container{
+    width: 90%;
+    height: 50%;
+   }
+   .phone{
+    display: none;
+   }
+   .instagram-login{
+    width: 90%;
+    height: 70vh;
+    justify-content: space-evenly;
+   }
+   
+}
